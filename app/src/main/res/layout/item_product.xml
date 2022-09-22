@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <data>
+
+    </data>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+
+        <ImageView
+            android:id="@+id/img_item_product"
+            android:layout_width="@dimen/_170sdp"
+            android:layout_height="@dimen/_170sdp"
+            android:layout_margin="@dimen/_5sdp"
+            android:layout_centerHorizontal="true"
+            />
+
+
+        <LinearLayout
+            android:id="@+id/linear_title_and_price_product"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_below="@id/img_item_product"
+            android:layout_margin="@dimen/_5sdp"
+            >
+
+            <TextView
+                android:id="@+id/txt_title_item_product"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="@dimen/_17ssp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:layout_margin="@dimen/_3sdp"
+                />
+
+
+            <TextView
+                android:id="@+id/txt_price_item_product"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="@dimen/_15ssp"
+                android:textColor="@color/black"
+                android:gravity="center"
+                android:layout_margin="@dimen/_3sdp"
+                />
+
+        </LinearLayout>
+
+
+        <TextView
+            android:id="@+id/txt_type_product_item_product"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/_15ssp"
+            android:textColor="@color/black"
+            android:layout_margin="@dimen/_5sdp"
+            android:layout_below="@id/linear_title_and_price_product"
+            />
+
+        <TextView
+            android:id="@+id/txt_quantity_item_product"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/_15ssp"
+            android:textColor="@color/black"
+            android:layout_margin="@dimen/_5sdp"
+            android:layout_below="@id/txt_type_product_item_product"
+            android:layout_centerHorizontal="true"
+            />
+
+<!--        <LinearLayout-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:orientation="horizontal"-->
+<!--            android:layout_below="@id/txt_quantity_item_product"-->
+<!--            android:layout_margin="@dimen/_5sdp"-->
+<!--            >-->
+
+<!--            <TextView-->
+<!--                android:id="@+id/txt_number_true_item_product"-->
+<!--                android:layout_width="0dp"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_weight="1"-->
+<!--                android:textSize="@dimen/_15ssp"-->
+<!--                android:textColor="@color/black"-->
+<!--                android:layout_margin="@dimen/_3sdp"-->
+<!--                android:gravity="center"-->
+<!--                app:drawableEndCompat="@drawable/ic_true"-->
+<!--                android:drawablePadding="@dimen/_5sdp"-->
+<!--                />-->
+
+
+<!--            <TextView-->
+<!--                android:id="@+id/txt_number_false_item_product"-->
+<!--                android:layout_width="0dp"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_weight="1"-->
+<!--                android:textSize="@dimen/_15ssp"-->
+<!--                android:textColor="@color/black"-->
+<!--                android:gravity="center"-->
+<!--                android:layout_margin="@dimen/_3sdp"-->
+<!--                app:drawableEndCompat="@drawable/ic_false"-->
+<!--                android:drawablePadding="@dimen/_5sdp"-->
+<!--                />-->
+
+<!--        </LinearLayout>-->
+
+    </RelativeLayout>
+</layout>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+
+    </data>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/img_item_show_order"
+            android:layout_width="@dimen/_150sdp"
+            android:layout_height="@dimen/_150sdp"
+            android:layout_margin="@dimen/_5sdp"
+            android:layout_centerHorizontal="true"
+            />
+
+
+        <TextView
+            android:id="@+id/txt_title_item_show_order"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/_17ssp"
+            android:textColor="@color/black"
+            android:layout_margin="@dimen/_5sdp"
+            android:layout_below="@id/img_item_show_order"
+            />
+
+
+        <TextView
+            android:id="@+id/txt_result_total_item_show_order"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/_20ssp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:layout_margin="@dimen/_5sdp"
+            android:layout_below="@id/txt_title_item_show_order"
+            android:layout_centerInParent="true"
+            />
+
+
+        <ImageButton
+            android:id="@+id/img_btn_delete_item_show_order"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_delete"
+            android:backgroundTint="@color/white"
+            android:layout_below="@id/txt_result_total_item_show_order"
+            android:layout_alignParentEnd="true"
+            />
+
+
+    </RelativeLayout>
+</layout>
