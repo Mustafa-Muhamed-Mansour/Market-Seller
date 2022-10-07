@@ -1,5 +1,4 @@
-# Market-Seller
-Can the seller to add a new product or deleting also can see the orders of users and the opinions the users on him
+# Can the seller to add a new product or deleting also can see the orders of users and the opinions the users on him
 
 ## Screen Shoot
 <img src = "https://user-images.githubusercontent.com/53982895/191855221-7a458b34-1ea4-4f6e-add6-2673212eedd7.png" width = "200" height = "400"> <img src = "https://user-images.githubusercontent.com/53982895/191855223-77c8c947-e9cc-4184-926b-0ecbd934989c.png" width = "200" height = "400">
